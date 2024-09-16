@@ -1,0 +1,126 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//    int age  = 14;
+//    double temp = 26.5;
+
+    // variables as input
+
+//    float score1;
+//    float score2;
+//    float finalscore;
+//
+//
+//    printf("Score 1st test:\n");
+//    scanf("%f", &score1);
+//    printf("Score 2nd test:\n");
+//    scanf("%f", &score2);
+//
+//    finalscore = ((score1 + score2) / 2) * 10;
+//    printf("Final score = %.2f\n", finalscore);
+
+ // challenge 1
+
+// int curyear;
+// int age;
+// int birthyear;
+//
+//    printf("What year is it:");
+//    scanf("%d", &curyear);
+//
+//    printf("What's your age:");
+//    scanf("%d", &age);
+//
+//    birthyear = curyear - age;
+//    printf("Your birthyear is %d\n", birthyear);
+//    return 0;
+
+    // challenge 2
+
+//float height;
+//float widht;
+//float area;
+//
+//    printf("Inform the height:");
+//    scanf("%f", &height);
+//
+//    printf("Inform the width:");
+//    scanf("%f", &widht);
+//
+//    area = height * widht;
+//
+//    printf("The area is: %.2f m^2", area);
+
+
+ // challenge 2 - expanded (perimeter)
+//float height;
+//float widht;
+//float perimeter;
+//
+//    printf("Inform the height:\n");
+//    scanf("%f", &height);
+//
+//    printf("Inform the width:");
+//    scanf("%f", &widht);
+//
+//    perimeter = (widht*2) + (height*2);
+//
+//    printf("The perimeter of the rectangle is: %.2f", perimeter);
+
+    //   type conversion
+
+//    int num1 = 5 , num2 = 2;
+//    double result;
+//
+//    result = num1 / (double)num2; //the casting  before the number makes it a double.
+//    printf("%.2lf\n", result);
+
+    // challenge 3
+
+//    int nota1, nota2, nota3;
+//    float notafinal;
+//
+//    printf("Inform the 1st score:");
+//    scanf("%d", &nota1);
+//
+//
+//    printf("Inform the 2nd score:");
+//    scanf("%d", &nota2);
+//
+//
+//    printf("Inform the 3rd score:");
+//    scanf("%d", &nota3);
+//
+//    notafinal = (nota1 + nota2 + (float)nota3) / 3.0;
+//    printf("%.2f", notafinal);
+
+
+    // milestone 2
+
+//    double tempcel, tempfar;
+//
+//    printf("Inform the temperature in celsius:");
+//    scanf("%lf", &tempcel);
+//
+//    tempfar = (tempcel * 1.8) + 32;
+//
+//    printf("The temperature converted to Farenheit's scale is: %.2lf", tempfar);
+
+
+    // SWAP
+
+    float a = 20.2, b = 21.7, c;
+
+    printf("Before swap -> a: %f and b: %f\n",  a, b);
+
+    c = a;
+    a = b;
+    b = c;
+
+    printf("After swap -> a: %f and b: %f\n", a, b);
+
+
+}
+
